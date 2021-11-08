@@ -139,8 +139,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-//  #define MOTHERBOARD BOARD_MKS_ROBIN_NANO_V1_3_F4
-  #define MOTHERBOARD BOARD_MKS_ROBIN_NANO
+  #define MOTHERBOARD BOARD_MKS_ROBIN_NANO_V1_3_F4
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
@@ -1920,7 +1919,7 @@ EEPROM_W25Q
 #undef SRAM_EEPROM_EMULATION
 #undef I2C_EEPROM_AT24C16
 #undef SPI_EEPROM_W25Q
-#undef USE_WIRED_EEPROM 
+#undef USE_WIRED_EEPROM
 #define MARLIN_EEPROM_SIZE  4096
 #endif
 
