@@ -554,8 +554,8 @@
 
 // Above this temperature the heater will be switched off.
 // This can protect components from overheating, but NOT from shorts and failures.
-// (Use MINTEMP for thermistor short/failure protection.)
-#define HEATER_0_MAXTEMP 275
+// (Use MINTEMP for thermisor short/failure protection.)
+#define HEATER_0_MAXTEMP 310
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
@@ -600,9 +600,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp 20.86
-    #define DEFAULT_Ki 2.31
-    #define DEFAULT_Kd 47.15
+    #define DEFAULT_Kp 19.61
+    #define DEFAULT_Ki 2.17
+    #define DEFAULT_Kd 44.33
   #endif
 #endif // PIDTEMP
 
