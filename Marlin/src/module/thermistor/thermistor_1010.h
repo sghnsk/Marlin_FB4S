@@ -37,5 +37,7 @@ constexpr temp_entry_t temptable_1010[] PROGMEM = {
   PtLine(225, 1000, 1000),
   PtLine(250, 1000, 1000),
   PtLine(275, 1000, 1000),
-  PtLine(300, 1000, 1000)
+  PtLine(300, 1000, 1000),
+  PtLine(325, 1000, 1000),
+  PtLine(350, 1000, 1000)
 };
